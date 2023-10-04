@@ -1,0 +1,33 @@
+/* this is way to add comment*/
+/* This is to add background color to body section in html */
+
+/* # used fir ID */
+#welcome {
+    background-color: red;
+    color: white;
+}
+
+/* . used for class tag */
+h1.heading {
+    /* color: yellow; */
+    background-color: blue;
+    color: white;
+}
+/* change body color */
+body {
+    background-color: green;
+    /* set transparency of background color */
+    opacity: 0.9;
+    background-image: url("https://img.freepik.com/premium-photo/beautiful-mountain-range-reflects-tranquil-water-generative-ai_188544-9117.jpg");
+}
+
+/* * used for changing all content in html page it is called universal selector */
+* {
+    color: white;
+}
+
+/* margin is used for adding extra spaces for the text */
+/* to use all margin at once use margin: 50px 50px 50px 50px whether the pattern is top right bottom left */
+p {
+    margin-left: 20px;
+}
