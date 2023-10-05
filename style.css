@@ -30,4 +30,53 @@ body {
 /* to use all margin at once use margin: 50px 50px 50px 50px whether the pattern is top right bottom left */
 p {
     margin-left: 20px;
+    /* many style border we can use like groove, inset, outset, solid, double */
+    border-style: dotted;
+
+    /* we can also use mixed border eample are given below in sequece top right bottom left*/
+    border-style: dashed dotted solid groove;
+
+    /* to increase the border size we use border-width : 10px */
+    border-width: 2px;
+
+    /* for color we use */
+    border-color: antiquewhite;
+
+    /* all in one for left border */
+    border-left: 2px dashed purple;
+
+    /* border-raius used for giving edge curved in border */
+    border-radius: 10px;
+
+
+    /* CSS Padding */
+    /* paddin create space around an eleement or text inside any border */
+    padding-top: 10px;
+
+    /* height and width in CSS it adjust height for current tag similarly for width*/
+    height: 50px;
+    width: 100%;
+
+    /* outline used for outline text in above and below text */
+    /* outline-offset is used for giving space of outline-style */
+    outline-style: dotted;
+    outline-offset: 10px;
+
+    /* text-align is used for align the text based on given condition */
+    /* text-align: center; */
+    text-align-last: center;  /* only align last line*/
+
+    /* text-decoration-line use to decorate the text like underline */
+    text-decoration-line: underline;
+    text-decoration: overline green solid 6px;
+
+    /* test-transform is used for text transform into lowercase uppercase */
+    text-transform: uppercase;
+
+    /* text-indent used to indent the text  */
+    text-indent: 10px;
+
+    /* letter spacing is done to make the space between character */
+    letter-spacing: 2px;
+
 }
