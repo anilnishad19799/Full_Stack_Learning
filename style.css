@@ -28,7 +28,7 @@ body {
 
 /* margin is used for adding extra spaces for the text */
 /* to use all margin at once use margin: 50px 50px 50px 50px whether the pattern is top right bottom left */
-p {
+b {
     margin-left: 20px;
     /* many style border we can use like groove, inset, outset, solid, double */
     border-style: dotted;
@@ -79,4 +79,81 @@ p {
     /* letter spacing is done to make the space between character */
     letter-spacing: 2px;
 
+    /* changing font family of text */
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 50px;
+
+    /* Icons in CSS */
+
+}
+
+table,  th, td {
+    display: none; /*this will show no data dur to no  dispaly cdone*/
+    border: 2px solid;
+    width: 40%;
+    border-collapse: collapse;  /* it will collpase all interline border to one*/
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+}
+
+/* below is used when we hover mouse then it will perform action based on given */
+tr:hover {
+    background-color: purple;
+}
+
+/* combinator in css */
+/* all elelment of b  in h get change here  */
+h1 b {
+    color: red;
+}
+
+/* the immediate children b of h1 get reflected changes */
+/* h1 > b  */
+
+/* thi will select adjacent tag after h1 tag b will  reflect changes */
+/* h1 + b */
+
+
+.dropdownbutton {
+    background-color: blue;
+    color: white;
+    padding: 13px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: lightblue;
+    min-width: 150px;
+}
+
+.dropdown-menu a {
+    color: black;
+    passing : 11px 15px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-menu a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+.dropdown:hover .dropdownbutton{
+    background-color: grey;
+}
+
+div[class='test'] {
+    color: red;
 }
